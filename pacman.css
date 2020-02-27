@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+div.empty {
+    text-decoration: none;
+}
+div.brick{
+    background-color: blue;
+}
+div.coin{
+    background: url("coin.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.cherry{
+    background: url("cherry.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div#pacman{
+    background: url("pacman.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(0deg);
+}
+div#score{
+    border: 1px solid white;
+    width: 50px;
+    height: 15px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+div#pinky{
+    background: url("pinky.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+div#blinky{
+    background: url("blinky.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+div#inky{
+    background: url("inky.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+div#clyde{
+    background: url("clyde.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
